@@ -1,0 +1,9 @@
+ul {
+    list-style-position: outside;
+    color: aqua;
+
+}
+
+ol {
+    list-style-image: url("unsorted-10px.svg");
+}
