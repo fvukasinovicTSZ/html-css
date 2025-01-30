@@ -1,0 +1,10 @@
+#prva {
+    border: solid 3px;
+    border-style: inset;
+}
+
+#druga {
+    border: solid 3px;
+    border-top-width: thin;
+    border-bottom-width: thin;
+}
