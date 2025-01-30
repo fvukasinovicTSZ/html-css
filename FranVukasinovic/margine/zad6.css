@@ -1,0 +1,19 @@
+p {
+    border: 3px solid;
+}
+
+#prva {
+    border-style: double;
+}
+
+#druga {
+    border-style: dotted;
+}
+
+#treca {
+    border-style: groove;
+}
+
+#cetvrta {
+    border-style: ridge;
+}

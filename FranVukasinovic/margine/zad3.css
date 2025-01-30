@@ -1,0 +1,8 @@
+.prva {
+    border: 1px solid red;
+    margin-left: 100px;
+}
+
+p {
+    margin: inherit;
+}
