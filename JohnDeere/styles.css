@@ -1,0 +1,50 @@
+* {
+    color: #FFDE00;
+    font-size: 20px;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+main footer {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+header{
+    width:100%;
+    height:100px;
+    background-color:#367C2B;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+}
+.glavninaslov{
+    font-size: 40px;
+    font-weight: bolder;
+}
+main{
+    width:100%;
+    background-color:#367C2B;
+}
+footer{
+    width:100%;
+    background-color:#367C2B;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    bottom: 0;
+}
+.prvalista {
+    list-style-type: none;
+    display: flex;
+    text-align:center ;
+}
+li{
+    padding: 10px;
+}
+.glavno{
+    float: right;
+    width: 350px;
+}
