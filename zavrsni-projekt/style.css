@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "MyFont";
+    src: url(font/Interstate.ttf);
+}
+
 header {
     margin: 0;
     background-color: white;
@@ -5,20 +10,32 @@ header {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 5px;
+    gap: 20px;
     top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #367C2B;
 }
 
 .content {
     background-color: #ececec;
-    flex: 1
+    flex: 1;
 }
 
-.site {
+body {
     display: flex;
     flex-direction: column;
 }
 
+
 footer {
     display: flex;
+    justify-content: flex-start;
+    gap: 20px;
 }
